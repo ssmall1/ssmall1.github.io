@@ -3139,7 +3139,7 @@ input, select, textarea {
 		}
 
 		.spotlight.style1 .content {
-			border-color: #e44c65;
+			border-color: #33a54277;
 		}
 
 		.spotlight.style2 .content {
@@ -3523,6 +3523,7 @@ input, select, textarea {
 					border-radius: 100%;
 					display: block;
 					width: 100%;
+					height: 100%;
 				}
 
 	body.is-touch #banner {
