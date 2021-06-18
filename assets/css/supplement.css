@@ -1,3 +1,11 @@
 i{
   font-size: 80px;  
 }
+
+.row > div{
+    padding: 10px;
+}
+
+.send-message{
+  width: 20px;
+}
