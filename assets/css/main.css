@@ -111,12 +111,12 @@ input, select, textarea {
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #e44c65;
+		color: #33a54277;
 		text-decoration: none;
 	}
 
 		a:hover {
-			color: #e44c65 !important;
+			color: #33a54277 !important;
 			border-bottom-color: transparent;
 		}
 
@@ -2370,7 +2370,7 @@ input, select, textarea {
 	}
 
 	::-webkit-input-placeholder {
-		color: rgba(255, 255, 255, 0.5) !important;
+		color: black !important;
 		opacity: 1.0;
 	}
 
@@ -2855,8 +2855,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:hover,
 		.button:active {
-			box-shadow: inset 0 0 0 1px #e44c65;
-			color: #e44c65 !important;
+			box-shadow: inset 0 0 0 1px #33a54277;
+			color: #33a54277 !important;
 		}
 
 		input[type="submit"]:active,
@@ -3201,8 +3201,15 @@ input, select, textarea {
 	}
 
 		.wrapper.style2 {
-			background: #33a54277;
+			/* background: #33a54277; */
+			background-image: url("/images/tetons.jpg");
+			background-position: top 2800px left 0px;
 		}
+
+			.wrapper.style2 input, .wrapper.style2 textarea {
+				background-color: rgba(255, 255, 255, 0.5);
+				font-weight: bold;
+			}
 
 			.wrapper.style2 input[type="text"]:focus,
 			.wrapper.style2 input[type="password"]:focus,
@@ -3235,7 +3242,7 @@ input, select, textarea {
 			.wrapper.style2 input[type="reset"].primary,
 			.wrapper.style2 input[type="button"].primary,
 			.wrapper.style2 .button.primary {
-				background-color: #ffffff;
+				background-color: #ffffffb4;
 				color: #277031 !important;
 			}
 
@@ -3340,7 +3347,7 @@ input, select, textarea {
 			}
 
 			.dropotron > li.active > a, .dropotron > li.active > span {
-				color: #e44c65;
+				color: #33a54277;
 			}
 
 		.dropotron.level-0 {
@@ -3430,7 +3437,7 @@ input, select, textarea {
 						}
 
 					#header nav ul li.active > a, #header nav ul li.active > span {
-						color: #e44c65;
+						color: #33a54277;
 					}
 
 					#header nav ul li > ul {

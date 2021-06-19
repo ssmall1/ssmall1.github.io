@@ -9,3 +9,8 @@ i{
 .send-message{
   width: 33%;
 }
+
+#contact-header > * {
+  font-weight: bold;
+  color: black;
+}
