@@ -3209,6 +3209,7 @@ input, select, textarea {
 			.wrapper.style2 input, .wrapper.style2 textarea {
 				background-color: rgba(255, 255, 255, 0.5);
 				font-weight: bold;
+				color: black;
 			}
 
 			.wrapper.style2 input[type="text"]:focus,
