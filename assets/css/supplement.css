@@ -18,3 +18,7 @@ i{
 #two, #three, #four, #five {
   height: 500px;
 }
+
+.txt-rotate{
+  font-size: 27px;
+}
