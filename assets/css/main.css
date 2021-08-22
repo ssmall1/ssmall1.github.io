@@ -3496,7 +3496,8 @@ input, select, textarea {
 
 		#banner .content {
 			display: inline-block;
-			margin-right: 1%;
+			margin-right: 10%;
+			min-width: 70%;
 			max-width: 95%;
 			padding: 6em;
 			position: relative;
