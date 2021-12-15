@@ -22,3 +22,18 @@ i{
 .txt-rotate{
   font-size: 2em;
 }
+
+.github-link{
+  border-bottom: none;
+  color: white;
+  height: 10px;
+}
+
+.actions{
+  display: flex;
+  justify-content: center;
+}
+
+.actions > *{
+  margin: auto 15px;
+}
